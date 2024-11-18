@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widht=device-widht, initial-scale-1, shrilink-to-fit-no">
+
+    <!--Bootstarp CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://stacpath.bootstrapcdn.com/bootstrap/4.5.0/css/
+    bootstrap.main.css" integrity="sha384-9altn8pC12UK9ghaDl411NQApFmC26EwAOH8WgZl5MYYxFf+NcPb1dKGjSk" crossorigin="anonymous"
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.main.css"
+    <link rel="stylesheet" type="text/css" href="index.css"
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.main.css"
+
+    
+  </head>
+<body>
+
+
+<!-- navbar -->
+<head>
+    <title>Building a Horizontal Navigation Bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+  
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+  
+        .navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background: rgb(104, 12, 12);
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+        }
+  
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+  
+        .nav-list li {
+            margin-right: 20px;
+        }
+  
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+  
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+  
+        .nav-list li a:hover {
+            color: #ffd700;
+            /* Change the color on hover */
+        }
+  
+        .rightNav {
+            text-align: right;
+        }
+  
+    </style>
+  </head>
+  <body>
+  <!-- Navbar -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a class="nav-link mr-4" href="login.html">LOG IN</a></li>
+            <li><a class="nav-link mr-4" href="index.html">HOME</a></li>
+            <li><a class="nav-link mr-4" href="daftarmenu.html">DAFTAR MENU</a></li>
+            <li><a class="nav-link mr-4" href="pesanan.html">PESANAN</a></li>
+            <li><a class="nav-link mr-4" href="#">LOGOUT</a></li>
+        </ul>
+    </nav>
+    
+  
+  <!-- Akhir Navbar-->
+    <!-- Menu -->
+      <div class="container">
+        <div class="judul-pesanan mt-5/">
+
+            <h3 class="text-center font-weight-bold">DATA PESANAN</h3>
+
+        </div>
+        <table class="table table-bordered" id="example">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">No. Meja</th>
+                    <th scope="col">Nama Pesana</th>
+                    <th scope="col">Jumplah</th>
+                    <th scope="col">Tanggal</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Aksi</th>
+                </tr>
+            </thead>
+            <body>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>01</td>
+                    <td>Seblak</td>
+                    <td>2</td>
+                    <td>2024-10-20</td>
+                    <td>Belum Bayar</td>
+                    <td>
+                        <a href="#" class="bedge bedge-dager">Hapus Data</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                    <td>10</td>
+                    <td>Seblak Original</td>
+                    <td>2</td>
+                    <td>2024-10-21</td>
+                    <td>Belum Bayar</td>
+                    <td>
+                        <a href="#" class="badge bedge-dager">Hapus Data</a>
+                    </td>
+                </tr>
+                <tr>
+    
+   </tr>

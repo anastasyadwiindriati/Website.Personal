@@ -1,0 +1,39 @@
+#include <iostream>
+    using namespace std;
+    
+    int main() {
+        int choice;
+        
+        cout << "Menu Makanan" << endl;
+        cout << "1. Nasi Goreng" << endl;
+        cout << "2. Mie Goreng" << endl;
+        cout << "3. Ayam Goreng" << endl;
+        cout << "4. Bakso" << endl;
+        cout << "5. Es Teh Manis" << endl;
+        
+        cout << "Pilih nomor makanan yang diinginkan (1-5): ";
+        cin >> choice;
+        
+        switch (choice) {
+            case 1:
+                cout << "Anda memilih Nasi Goreng. Harganya Rp 15.000,-" << endl;
+                break;
+            case 2:
+                cout << "Anda memilih Mie Goreng. Harganya Rp 12.000,-" << endl;
+                break;
+            case 3:
+                cout << "Anda memilih Ayam Goreng. Harganya Rp 20.000,-" << endl;
+                break;
+            case 4:
+                cout << "Anda memilih Bakso. Harganya Rp 10.000,-" << endl;
+                break;
+            case 5:
+                cout << "Anda memilih Es Teh Manis. Harganya Rp 5.000,-" << endl;
+                break;
+            default:
+                cout << "Pilihan tidak valid." << endl;
+                break;
+        }
+        
+        return 0;
+    }
